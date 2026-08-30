@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "zelo",
+    "slug": "zelo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Permitir acesso à câmera para videochamadas",
+        "NSMicrophoneUsageDescription": "Permitir acesso ao microfone para videochamadas"
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.zelo.app",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.BLUETOOTH",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.ACCESS_WIFI_STATE",
+        "android.permission.CHANGE_NETWORK_STATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableEdgeToEdge": false
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bdab0dd8-530f-4380-ab06-9b273592dd62"
+      },
+      "firebaseApiKey": "AIzaSyByM6H6XbZkkwEPaOJ-0itCJGNUr9W6t-U",
+      "firebaseAuthDomain": "zelo-app-25362.firebaseapp.com",
+      "firebaseProjectId": "zelo-app-25362",
+      "firebaseStorageBucket": "zelo-app-25362.firebasestorage.app",
+      "firebaseMessagingSenderId": "928702691541",
+      "firebaseAppId": "1:928702691541:web:aef0486cb0d89315590a5c"
+    },
+    "owner": "danielsilva021"
+  }
+}

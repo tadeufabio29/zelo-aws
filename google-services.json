@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "594225721955",
+    "project_id": "zelo-85488",
+    "storage_bucket": "zelo-85488.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594225721955:android:cf8f1835950925b7637e56",
+        "android_client_info": {
+          "package_name": "com.zelo.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQdGA2bjN6Oxlu4wZUCSEU7wgaTg8O8ZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
